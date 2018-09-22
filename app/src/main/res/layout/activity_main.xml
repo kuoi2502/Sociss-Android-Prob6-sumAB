@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tittle"
+        android:gravity="center"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_big"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number_a"
+            android:textSize="@dimen/text_size_small"
+
+            />
+        <EditText
+            android:gravity="center"
+            android:id="@+id/edt_number_a"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number_b"
+            android:textSize="@dimen/text_size_small"
+
+            />
+        <EditText
+            android:gravity="center"
+            android:id="@+id/edt_number_b"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:gravity="center"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_big"
+        />
+    <Button
+        android:id="@+id/btn_sum"
+        android:text="@string/sum_a_b"
+        android:textSize="@dimen/text_size_small"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+
+
+        />
+</LinearLayout>

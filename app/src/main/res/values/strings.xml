@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">SocissProblem6</string>
+    <string name="tittle">Nhập vào đây 2 số</string>
+    <string name="number_a">Nhập số thứ nhất</string>
+    <string name="number_b">Nhập Số thứ hai</string>
+    <string name="result">Kết quả:</string>
+    <string name="sum_a_b">Tổng hai số</string>
+
+</resources>
